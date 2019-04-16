@@ -3,53 +3,119 @@
   <head>
     <meta charset="UTF-8" />
     <title>About | Jake Gurley</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
   </head>
 
   <body>
-    <header id="masthead">
-      <div class="container">
-        <a href="index.html" id="logo">Jake Gurley</a>
-        <nav>
-          <a href="index.html">About</a>
-          <a href="portfolio.html">Portfolio</a>
-          <a href="contact.html">Contact</a>
-        </nav>
+    <div
+      class="main-container bg-light mr-auto col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+    >
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-white col-auto mr-auto"
+      >
+        <a
+          class="navbar-brand bg-info text-white p-2 mr-auto "
+          href="index.html"
+        >
+          <h1>Jake Gurley</h1>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse offset-lg-7"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a
+              class="nav-item nav-link border-right text-info border-primary"
+              href="index.html"
+              >About <span class="sr-only">(current)</span></a
+            >
+            <a
+              class="nav-item text-info nav-link border-right border-primary"
+              href="portfolio.html"
+              >Portfolio</a
+            >
+            <a
+              class="nav-item text-info nav-link"
+              href="contact.html"
+              tabindex="-6"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </nav>
+
+          <div class="row">
+            <p class="container col-auto"></p>
+          </div>
+          <section
+            class="main-section col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"
+          >
+           <div class="container bg-white mr-auto p-2 container-fluid">
+             <div class="container bg-white p-2">
+               <div class="row">
+                <div
+                class="container text-info mr-auto col-xs-11 col-sm-11 col-md-11 col-lg-11 col-xl-11"
+                >
+                <h1>About Me</h1>
+              </div>
+            </div>
+            
+          
+          <div class="row">
+                <div
+                class="container text-black mr-auto col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"
+                >
+                <img
+                src="assets/images/profile-pic.jpg"
+                class="img-thumbnail"
+                alt="Jake Gurley"
+                style="width: 400px"
+            
+                />
+                </div>
+                <div
+                class="container text-black mr-auto col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8"
+                >
+                    <p>
+                    Jake Gurley is an aspiring full stack web developer with a
+                    background in electronics engineering, and dabbles with Android
+                    developement as well.
+                    </p>
+                    <br>
+                    <p>
+                    Whether he can help you, or learn from you, he's always happy to
+                    collaborate.
+                    </p>
+                    <br>
+                    <p>
+                    In the future, he plans to be a developer for the rest of his
+                    professional career.
+                    </p>
+                </div>
+            </div>
+        </section>
       </div>
-    </header>
 
-    <div id="main-container" class="container">
-      <section class="main-section">
-        <h1>About Me</h1>
-
-        <img
-          src="assets/images/profile-pic.jpg"
-          class="auth-image"
-          alt="Jake Gurley"
-        />
-
-        <p>
-          Jake Gurley is an aspiring full stack web developer with a background
-          in electronics engineering, and dabbles with Android developement as
-          well.
-        </p>
-
-        <p>
-          Whether he can help you, or learn from you, he's always happy to
-          collaborate.
-        </p>
-
-        <p>
-          In the future, he plans to be a developer for the rest of his
-          professional career
-        </p>
-      </section>
+      <footer>
+        <div class="container">
+          Copyright &copy;
+        </div>
+      </footer>
     </div>
-
-    <footer>
-      <div class="container">
-        Copyright &copy;
-      </div>
-    </footer>
   </body>
 </html>
